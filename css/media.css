@@ -1,54 +1,122 @@
 /*==========  Desktop First Method  ==========*/
 
-/* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
 
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {
+    .search_block {
+        padding-left: 0 !important;
+    }
+    .cart_stack {
+        height: 45px;
+        margin-bottom: 13px;
+    }
+    .search_block {
+        height: 45px;
+        padding-left: 0 !important;
+    }
+    .cart_block {
+        height: 45px;
+    }
 }
+
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
 
+@media only screen and (max-width: 992px) {
+    .search_block {
+        height: 31px;
+    }
+    .cart_block {
+        height: 31px;
+    }
+    .navbar {
+        display: none;
+    }
+    .cart_stack {
+        height: 45px;
+    }
+    .search_block {
+        height: 45px;
+        padding-left: 0 !important;
+    }
+    .cart_block {
+        height: 45px;
+    }
+        .phone_number {
+        padding-left: 25px;
+    }
+    .cf{
+    	display: block;
+    }
 }
+
+
+
+
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
+
+@media only screen and (max-width: 768px) {
 
 }
+
+
+
+
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
 
-}
+@media only screen and (max-width: 480px) {}
+
+
+
+
 
 /* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
 
-}
+@media only screen and (max-width: 320px) {}
+
+
+
+
 
 
 /*==========  Mobile First Method  ==========*/
 
-/* Custom, iPhone Retina */
-@media only screen and (min-width : 320px) {
 
-}
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) {}
+
+
+
+
 
 /* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {
 
-}
+@media only screen and (min-width: 480px) {}
+
+
+
+
 
 /* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
 
-}
+@media only screen and (min-width: 768px) {}
+
+
+
+
 
 /* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
 
-}
+@media only screen and (min-width: 992px) {}
 
- /* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
 
-}
+
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {}
