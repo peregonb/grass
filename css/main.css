@@ -250,7 +250,6 @@ a {
 }
 
 .index_header {
-    padding: 10;
     display: block;
     height: 89px;
 }
@@ -270,7 +269,7 @@ a {
 .call_me_block {
     height: 89px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -361,15 +360,23 @@ input[type="submit"] {
 .cart_block {
     height: 89px;
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.cart_stack {
+    height: 89px;
+    margin-bottom: 0;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .cart_box {
     height: 32px;
     border: 1px solid #50b43f;
     border-radius: 16px;
     padding: 0;
+    width: 160px;
+    cursor: pointer;
 }
 
 .cart_item {
@@ -403,7 +410,12 @@ input[type="submit"] {
     float: right;
     padding: 8px 7px 8px 0;
 }
-
+.cart{
+    display: flex;
+    -webkit-justify-content: flex-end;
+            justify-content: flex-end;
+        padding-right: 0;
+}
 
 /*HEADER MENU*/
 
