@@ -56,3 +56,28 @@ $('#owl-carousel-2').owlCarousel({
         }
     }
 })
+
+$('#owl-carousel-3').owlCarousel({
+    loop:true,
+    margin:20,
+    nav:false,
+    dots:true,
+    responsive:{
+        0:{
+            items:1,
+            dots:false
+        },
+        620:{
+            items:2
+        },
+        640:{
+            items:2
+        },
+        992:{
+            items:3
+        },
+        1200:{
+            items:4
+        }
+    }
+})

@@ -162,6 +162,9 @@
     padding: 1rem;
     background-color: #efefef;
 }
+#owl-carousel-3 .owl-stage-outer {
+left: 0;
+}
 }
 
 
@@ -216,6 +219,15 @@
     height: 24rem;
     padding: 1rem;
     background-color: #efefef;
+}
+.recommend-text {
+    width: 250px !important;
+    background-color: #fafafa;
+}
+.recommend_hr{
+    margin: 0;
+    position: relative;
+    top: 20px;
 }
 }
 
