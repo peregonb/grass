@@ -13,7 +13,7 @@ $(window).resize(function(){
         $('ul#nav.navbar').css( "display", "block"); 
     }
     else if(winwidth < 992){
-        $('ul#nav.navbar').css( "display", "none");  
+        $('ul#nav.navbar').css( "display", "none");   
     }
 });
 
@@ -35,16 +35,23 @@ $('#owl-carousel-1').owlCarousel({
 })
 $('#owl-carousel-2').owlCarousel({
     loop:true,
-    margin:10,
+    margin:0,
     nav:false,
     responsive:{
         0:{
-            items:1
+            items:1,
+            dots:false
         },
-        600:{
+        435:{
+            items:2
+        },
+        640:{
             items:3
         },
-        1000:{
+        992:{
+            items:4
+        },
+        1200:{
             items:5
         }
     }

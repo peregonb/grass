@@ -34,6 +34,11 @@ a {
 }
 
 
+
+
+
+
+
 /*HAMBURGER*/
 
 a {
@@ -51,6 +56,11 @@ a {
     padding-left: 7.5px;
     padding-right: 7.5px;
 }
+
+
+
+
+
 
 
 
@@ -172,6 +182,11 @@ a {
     -o-transform: translateY(-13px) rotate(-45deg);
     transform: translateY(-13px) rotate(-45deg);
 }
+
+
+
+
+
 
 
 
@@ -311,6 +326,11 @@ a {
 
 
 
+
+
+
+
+
 /*.search input[type=text]{
 background-image: url(../img/lens.png) !important;
     background-repeat: no-repeat;
@@ -426,6 +446,11 @@ input[type="submit"] {
 }
 
 
+
+
+
+
+
 /*HEADER MENU*/
 
 .navbar .navbar_li:hover {
@@ -467,11 +492,17 @@ li {
     font-family: 'Open Sans';
     font-size: 14px;
     font-weight: 700;
-    color:white;
+    color: white;
 }
-.nav_text:hover{
-        color:white;
+
+.nav_text:hover {
+    color: white;
 }
+
+
+
+
+
 
 /*CONTAINER BLOCK*/
 
@@ -485,37 +516,42 @@ li {
     height: 36rem;
     padding: 1rem;
     background-color: #efefef;
-    
 }
-#owl-carousel-1{
-        margin: 2rem 0;
+
+#owl-carousel-1 {
+    margin: 2rem 0;
     position: relative;
     top: -33px;
     z-index: 5000;
-    
 }
-.first-carousel-item1{
+
+.first-carousel-item1 {
     background-image: url(../img/stelag.png);
     background-repeat: no-repeat;
     background-position-y: -10px;
     background-position-x: 30px;
     background-size: contain;
 }
+
 .owl-stage-outer {
-    position:relative;
-    z-index:10;
+    position: relative;
+    z-index: 10;
 }
+
 .owl-theme .owl-nav.disabled+.owl-dots {
     margin-top: 10px;
     position: relative;
     z-index: 99;
     margin-top: -35px;
 }
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
     width: 14px;
     height: 14px;
     background-color: #50c245;
 }
+
 .owl-theme .owl-dots .owl-dot span {
     margin: 5px 7px;
     display: block;
@@ -526,11 +562,14 @@ li {
     border: 1px solid #b8b8ba;
     background-color: transparent;
 }
+
+
+
+
+
+
 /*novelties*/
 
-.novelties{
-
-}
 .novelties_text {
     color: black;
     font-family: 'Open Sans', sans-serif;
@@ -543,6 +582,102 @@ li {
     position: relative;
     top: -16px;
 }
+
 .novelties_hr {
     margin-bottom: 0;
+}
+
+.novelties-title-block {
+    width: 177px;
+    height: 43px;
+    background-color: white;
+    border: 1px solid #b8b8ba;
+    border-radius: 22px;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.novelties-title {
+    color: #353535;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.second-carousel-item {}
+
+.novelties-image {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 185px;
+    margin-top: 5px;
+    background-position: center;
+}
+
+.novelties-image1 {
+    background-image: url(../img/soap1.png);
+}
+
+.novelties-image2 {
+    background-image: url(../img/soap2.png);
+}
+
+.novelties-image3 {
+    background-image: url(../img/soap3.png);
+}
+
+.novelties-image4 {
+    background-image: url(../img/soap4.png);
+}
+
+.novelties-image5 {
+    background-image: url(../img/soap5.png);
+}
+
+.novelties-description-bold {
+    color: #3b3b3b;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 5px 12%;
+    line-height: 18px;
+}
+
+.novelties-description-regular {
+    color: #b9b9b9;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 5px 12%;
+    line-height: 17px;
+    text-align: left;
+}
+
+.novelties-price {
+    color: #3b3b3b;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    padding: 5px 12%;
+    text-align: left;
+}
+
+.novelties-details {
+    color: #3b3b3b;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 5px 12%;
+    text-align: left;
 }
