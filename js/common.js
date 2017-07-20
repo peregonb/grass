@@ -65,7 +65,8 @@ $('#owl-carousel-3').owlCarousel({
     responsive:{
         0:{
             items:1,
-            dots:false
+            dots:false,
+            margin:0
         },
         620:{
             items:2
