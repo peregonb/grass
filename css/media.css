@@ -19,11 +19,16 @@
         height: 45px;
     }
     .first-carousel-item {
-    height: 30rem;
-    padding: 1rem;
-    background-color: #efefef;
+        height: 30rem;
+        padding: 1rem;
+        background-color: #efefef;
+    }
+        #owl-carousel-4{
+    position: relative;
+    right: 14px;
 }
 }
+
 
 
 
@@ -79,23 +84,29 @@
         display: none;
     }
     .first-carousel-item1 {
-    background-image: url(../img/stelag2.png);
-    background-repeat: no-repeat;
-    background-position-y: -10px;
-    background-position-x: 0px;
-    background-size: contain;
-}
-.first-carousel-item {
-    height: 34rem;
-    padding: 1rem;
-    background-color: #efefef;
-}
-#owl-carousel-1 {
+        background-image: url(../img/stelag2.png);
+        background-repeat: no-repeat;
+        background-position-y: -10px;
+        background-position-x: 0px;
+        background-size: contain;
+    }
+    .first-carousel-item {
+        height: 34rem;
+        padding: 1rem;
+        background-color: #efefef;
+    }
+    #owl-carousel-1 {
+        position: relative;
+        top: -20px;
+        z-index: 5000;
+    }
+    #owl-carousel-4{
     position: relative;
-    top: -20px;
-    z-index: 5000;
+    right: 14px;
 }
+
 }
+
 
 
 
@@ -149,23 +160,28 @@
         left: -13px;
         padding-right: 0;
     }
-        .first-carousel-item1 {
-    background-image: url(../img/stelag4.png);
-    background-repeat: no-repeat;
-    background-position-y: -10px;
-    background-position-x: 0px;
-    background-size: contain;
-    background-position: center; 
+    .first-carousel-item1 {
+        background-image: url(../img/stelag4.png);
+        background-repeat: no-repeat;
+        background-position-y: -10px;
+        background-position-x: 0px;
+        background-size: contain;
+        background-position: center;
+    }
+    .first-carousel-item {
+        height: 29rem;
+        padding: 1rem;
+        background-color: #efefef;
+    }
+    #owl-carousel-3 .owl-stage-outer {
+        left: 0;
+    }
+        #owl-carousel-4{
+    position: relative;
+    right: 0;
 }
-.first-carousel-item {
-    height: 29rem;
-    padding: 1rem;
-    background-color: #efefef;
 }
-#owl-carousel-3 .owl-stage-outer {
-left: 0;
-}
-}
+
 
 
 
@@ -207,29 +223,37 @@ left: 0;
     .navbar {
         margin-top: 120px;
     }
-            .first-carousel-item1 {
-    background-image: url(../img/stelag3.png);
-    background-repeat: no-repeat;
-    background-position-y: -10px;
-    background-position-x: 0px;
-    background-size: contain;
-        background-position: center; 
-}
-.first-carousel-item {
-    height: 24rem;
-    padding: 1rem;
-    background-color: #efefef;
-}
-.recommend-text {
-    width: 220px !important;
-    background-color: #fafafa;
-}
-.recommend_hr{
-    margin: 0;
+    .first-carousel-item1 {
+        background-image: url(../img/stelag3.png);
+        background-repeat: no-repeat;
+        background-position-y: -10px;
+        background-position-x: 0px;
+        background-size: contain;
+        background-position: center;
+    }
+    .first-carousel-item {
+        height: 24rem;
+        padding: 1rem;
+        background-color: #efefef;
+    }
+    .recommend-text {
+        width: 220px !important;
+        background-color: #fafafa;
+    }
+    .news_text {
+        width: 100% !important;
+    }
+    .recommend_hr {
+        margin: 0;
+        position: relative;
+        top: 20px;
+    }
+        #owl-carousel-4{
     position: relative;
-    top: 20px;
+    right: 0;
 }
 }
+
 
 
 
@@ -240,7 +264,22 @@ left: 0;
 
 /* Custom, iPhone Retina */
 
-@media only screen and (max-width: 320px) {}
+@media only screen and (max-width: 320px) {
+
+    .novelties-plus {
+        right: 10px;
+    }
+    .novelties-plus-extended {
+
+    right: 33px;
+
+}
+    #owl-carousel-4{
+    position: relative;
+    right: 0;
+}
+}
+
 
 
 
@@ -264,9 +303,11 @@ left: 0;
 
 
 
+
 /* Extra Small Devices, Phones */
 
 @media only screen and (min-width: 480px) {}
+
 
 
 
@@ -286,9 +327,11 @@ left: 0;
 
 
 
+
 /* Medium Devices, Desktops */
 
 @media only screen and (min-width: 992px) {}
+
 
 
 
