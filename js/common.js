@@ -140,12 +140,12 @@ $(".novelties-title-block").mouseout(function() {
 // });
 
 
-$(".item ").hover(function(){
+$(".plus-block").hover(function(){
 
 $(this).find(".novelties-plus + .novelties-plus-extended").css("display", "none");
-$(this).find(".novelties-plus + .novelties-plus-extended").animate({ width: 'toggle' }, 160);
+$(this).find(".novelties-plus + .novelties-plus-extended").animate({ width: 'toggle' }, 90);
 $(this).find(".novelties-plus + .novelties-plus-extended").css("display", "flex");
 }, function(){
-    $(this).find("#novelties-plus1 + .novelties-plus-extended").css("display", "flex");
-    $(this).find("#novelties-plus1 + .novelties-plus-extended").animate({ width: 'toggle' }, 160);
+    $(this).find(".novelties-plus + .novelties-plus-extended").css("display", "flex");
+    $(this).find(".novelties-plus + .novelties-plus-extended").animate({ width: 'toggle' }, 80);
 });

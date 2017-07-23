@@ -23,11 +23,13 @@
         padding: 1rem;
         background-color: #efefef;
     }
-        #owl-carousel-4{
-    position: relative;
-    right: 14px;
+    #owl-carousel-4 {
+        position: relative;
+        right: 14px;
+    }
 }
-}
+
+
 
 
 
@@ -100,12 +102,20 @@
         top: -20px;
         z-index: 5000;
     }
-    #owl-carousel-4{
-    position: relative;
-    right: 14px;
+    #owl-carousel-4 {
+        position: relative;
+        right: 14px;
+    }
+    .footer-number {
+        font-size: 18px;
+    }
+    .footer-rights {
+
+        white-space: normal;
+    }
 }
 
-}
+
 
 
 
@@ -176,11 +186,36 @@
     #owl-carousel-3 .owl-stage-outer {
         left: 0;
     }
-        #owl-carousel-4{
-    position: relative;
-    right: 0;
+    #owl-carousel-4 {
+        position: relative;
+        right: 0;
+    }
+    .footer-number {
+        font-size: 22px;
+    }
+    .footer-rights {
+
+        white-space: normal;
+    }
+    .states-blok1 {
+        position: relative;
+        top: 200px;
+    }
+    .states-blok2 {
+        position: relative;
+        top: 200px;
+    }
+    .states-blok3 {
+        position: relative;
+        bottom: 200px;
+    }
+    .states-blok4 {
+        position: relative;
+        bottom: 200px;
+    }
 }
-}
+
+
 
 
 
@@ -248,11 +283,43 @@
         position: relative;
         top: 20px;
     }
-        #owl-carousel-4{
-    position: relative;
-    right: 0;
+    #owl-carousel-4 {
+        position: relative;
+        right: 0;
+    }
+    .footer-rights {
+
+        white-space: normal;
+    }
+    .footer-number {
+        font-size: 22px;
+    }
+    .states-blok1 {
+        position: relative;
+        top: 470px;
+    }
+    .states-blok2 {
+        position: relative;
+        top: 175px;
+        height: 120px;
+    }
+    .states-blok3 {
+        position: relative;
+        top: -320px;
+        height: 200px;
+    }
+    .states-blok4 {
+        position: relative;
+        top: -335px;
+    }
+    .states-tile2 {
+        padding: 0;
+        float: right;
+        height: 350px;
+    }
 }
-}
+
+
 
 
 
@@ -271,14 +338,15 @@
     }
     .novelties-plus-extended {
 
-    right: 33px;
+        right: 33px;
+    }
+    #owl-carousel-4 {
+        position: relative;
+        right: 0;
+    }
+}
 
-}
-    #owl-carousel-4{
-    position: relative;
-    right: 0;
-}
-}
+
 
 
 
@@ -304,9 +372,13 @@
 
 
 
+
+
 /* Extra Small Devices, Phones */
 
 @media only screen and (min-width: 480px) {}
+
+
 
 
 
@@ -328,9 +400,13 @@
 
 
 
+
+
 /* Medium Devices, Desktops */
 
 @media only screen and (min-width: 992px) {}
+
+
 
 
 
