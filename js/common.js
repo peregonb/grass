@@ -7,6 +7,9 @@ $(document).ready(function() {
 $('.hamburger').click(function() {
     $('#nav').slideToggle({ top: 'toggle' });
 });
+$('.cart_box').click(function() {
+    $('.cart-selected').slideToggle({ left: 'toggle' });
+});
 $(window).resize(function() {
     var winwidth = $(window).innerWidth();
     if (winwidth > 992) {

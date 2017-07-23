@@ -430,6 +430,9 @@ input[type="submit"] {
     width: 160px;
     cursor: pointer;
 }
+.cart_box:hover {
+    box-shadow: 0 0 3px #50b43f;
+}
 
 .cart_item {
     width: 26px;
@@ -1215,4 +1218,15 @@ list-style: none;
     padding: 0;
     float: right;
 }
-
+.cart-selected{
+        position: relative;
+    top: -15px;
+    display: none;
+    border: 1px solid #e1e1e1;
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.07);
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    margin-left: 735px;
+    z-index: 9999;
+}
