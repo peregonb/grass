@@ -27,7 +27,26 @@
         position: relative;
         right: 14px;
     }
+    .about2-img {
+    height: 270px;
+    left: 115px;
+    top: 350px;
 }
+.grass-container {
+    height: auto;
+}
+.company-today-chevrons {
+background-position: center left, center right;
+background-size: contain;
+}
+.company-today-tile-child {
+    width: 100%;
+}
+.company-today-number {
+    padding-top: 25px;
+}
+}
+
 
 
 
@@ -113,7 +132,39 @@
 
         white-space: normal;
     }
+    .about-grass-pricips {
+        text-align: center;
+        width: 100%;
+    }
+    .about-grass-princips-image{
+width: 100%;
+    height: 220px;
+    margin: 0 auto;
+    background-position: center
 }
+.about-grass-footer-desc {
+    width: 100%;
+    position: relative !important;
+    top: 15px;
+}
+.about-grass-hr {
+    position: relative;
+    top: 15px;
+}
+.about2-textblock {
+    width: 100%;
+}
+.about2-img {
+display: none;
+}
+.grass-ghost{
+    display: none;
+}
+.company-today {
+    background-size: 100%, 75%;
+}
+}
+
 
 
 
@@ -213,7 +264,24 @@
         position: relative;
         bottom: 200px;
     }
+    .about-grass-pricips {
+        text-align: center;
+        width: 100%;
+    }
+    .about-grass-princips-list .about-grass-princips-list-item {
+        font-size: 14px;
+    }
+    .about-grass-princips-list .about-grass-princips-list-item:before {
+        height: 25px;
+        width: 25px;
+        left: 7px;
+    }
+    .about-grass-footer-desc:first-child {
+position: relative;
+top: 30px;
 }
+}
+
 
 
 
@@ -317,7 +385,28 @@
         float: right;
         height: 350px;
     }
+    .about2-textblock {
+    padding: 30px 20px 30px 20px;
+    width: 100%;
+    margin-top: 40px;
+    font-size: 13px;
+    background: #f8f9fb;
+    margin-bottom: 50px;
+    line-height: 22px;
 }
+.about-grass-footer-desc {
+    font-size: 15px;
+    width: 100%;
+}
+.company-today-chevrons {
+    background-image: none;
+}
+.company-today-movement {
+padding: 0;
+font-size: 28px;
+}
+}
+
 
 
 
@@ -344,7 +433,19 @@
         position: relative;
         right: 0;
     }
+    .about-grass-title {
+
+        font-size: 35px;
+    }
+.company-today-title {
+    font-size: 35px;
+    line-height: 38px;
 }
+.window form input.send {
+    width: 75%;
+}
+}
+
 
 
 
@@ -374,9 +475,11 @@
 
 
 
+
 /* Extra Small Devices, Phones */
 
 @media only screen and (min-width: 480px) {}
+
 
 
 
@@ -402,9 +505,11 @@
 
 
 
+
 /* Medium Devices, Desktops */
 
 @media only screen and (min-width: 992px) {}
+
 
 
 

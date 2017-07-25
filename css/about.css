@@ -1,0 +1,352 @@
+.title-page {
+    padding-left: 22.5px;
+    color: #989898;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    margin-top: 65px;
+    font-style: italic;
+}
+
+.about-grass {
+    background-image: url(../img/ellipse.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+.about-grass-title {
+    color: #3b3b3b;
+    font-family: 'Open Sans';
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -1px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.about-grass-desc {
+    color: #3b3b3b;
+    font-family: "Open Sans";
+    font-size: 16px;
+    letter-spacing: -0.3px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: center;
+    padding: 0px 6%;
+    margin-top: 25px;
+}
+
+.about-grass-pricips {
+    color: #47484a;
+    font-family: 'Open Sans';
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: -0.3px;
+    width: 50%;
+    margin-top: 60px;
+}
+
+.about-grass-princips-list .about-grass-princips-list-item {
+    color: #b9b9b9;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23px;
+    padding-left: 45px;
+    display: flex;
+    align-items: center;
+    min-height: 30px;
+    margin-top: 11px;
+    list-style: none;
+}
+
+.about-grass-princips-list .about-grass-princips-list-item:before {
+    content: "";
+    position: absolute;
+    background-image: url(../img/check.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 30px;
+    width: 30px;
+    left: -11px;
+    background-size: contain;
+}
+
+.about-grass-princips-image {
+    background-image: url(../img/truck.png);
+    background-repeat: no-repeat;
+    width: 45%;
+    background-size: contain;
+    height: 380px;
+}
+
+.about-grass-footer-desc {
+    color: #3b3b3b;
+    font-family: "Open Sans";
+    font-size: 16px;
+    letter-spacing: -0.3px;
+    font-weight: 600;
+    line-height: 25px;
+    width: 80%;
+}
+
+.about-grass-hr {
+    width: 52px;
+    border-top: 3px solid #1b4400;
+    box-shadow: 0 0 7px rgba(67, 175, 60, 0.58);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about-grass-footer-desc:last-child {
+    margin-bottom: 50px;
+}
+
+.about-grass-princips-list {
+    margin-bottom: 15px;
+}
+
+
+/*SECOND CONTAINER*/
+
+.about2-grass {
+    background-color: #f8f9fb;
+}
+
+.grass-ghost {
+    position: absolute;
+    opacity: 0.5;
+    color: #f8f9fb;
+    font-family: "Open Sans";
+    font-size: 120px;
+    height: auto;
+    font-weight: 700;
+    line-height: 5;
+    text-shadow: 0 0 40px #89de84;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.grass-container {
+    height: 600px;
+    background-color: #f8f9fb;
+    min-height: 60%;
+    position: relative;
+    ;
+}
+
+.grass-container:before {
+    content: "";
+    background-color: #f8f9fb;
+    display: block;
+    position: absolute;
+    height: 75px;
+    width: 100%;
+    bottom: -36px;
+    left: 0;
+    z-index: 5000;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.about2-textblock {
+    border: 10px solid #e8e9eb;
+    padding: 60px 40px 60px 40px;
+    width: 50%;
+    margin-top: 40px;
+    float: right;
+    font-family: "Open Sans";
+    font-weight: 700;
+    line-height: 28px;
+    background: #f8f9fb;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.green {
+    color: #43af3c;
+    font-size: 20px;
+}
+
+.container-states {
+    margin-top: 0;
+}
+
+.about2-img {
+    background-image: url(../img/woman.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 270px;
+    left: 135px;
+    top: 315px;
+    position: relative;
+    background-position: right;
+    z-index: 9999;
+}
+
+.company-today {
+background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to top, #43af3c 0%, #43af3c 0%, #62c75b 18%, #51b949 34%, #74e46d 88%, #dbf1d9 99%, #dbffd7 100%), url(../img/karta.png);
+    background-position: center, center;
+    background-blend-mode: multiply;
+    background-size: 100%, 50%;
+}
+
+
+/*.company-today-child{
+background-image: url(../img/kazah_map.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+    background-position: center;
+    
+}*/
+
+.company-today-title {
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -1px;
+    text-align: center;
+    margin-top: 70px;
+    text-shadow: 0 0 6px #43af3c;
+}
+.company-today-tile-last {
+    margin-bottom: 50px;
+}
+
+.company-today-tile-child {
+    height: 245px;
+    margin-left: 10px;
+    border: solid rgba(255, 255, 255, 0) 5px;
+    width: 80%;
+    outline: solid rgba(255, 255, 255, 0.8) 10px;
+    margin-right: 10px !important;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.46);
+    -webkit-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms;
+}
+
+.company-today-tile-child:hover {
+    border: solid #43af3c 5px;
+    -webkit-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms;
+}
+
+.company-today-tile {
+      margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.company-today-number {
+color: #43af3c;
+    font-family: "Open Sans";
+    font-size: 36px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-left: 10%;
+    letter-spacing: -0.5px;
+}
+
+.company-today-hr {
+    width: 110px;
+    border-top: 1px solid #1b4400;
+    margin-left: 10%;
+    margin-top: 5px;
+}
+
+.company-today-text {
+    color: #3b3b3b;
+    font-family: "Open Sans";
+    font-size: 13px;
+    padding-left: 10%;
+    margin-top: 10px;
+    font-weight: 400;
+    margin-right: 10%;
+    line-height: 18px;
+}
+
+.company-company {
+    height: 330px;
+    margin-top: 30px;
+}
+
+.company-today-desctext {
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.44);
+    color: white;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 0px;
+}
+
+.company-today-movement {
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.44);
+    color: white;
+    font-family: "Open Sans";
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 33px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 0 10%;
+}
+
+.company-today-button {
+    width: 220px !important;
+    height: 40px !important;
+    background-color: white;
+    border-radius: 20px;
+    color: #3b3b3b;
+    font-family: "Open Sans";
+    font-size: 11px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.2px;
+    justify-content: center;
+    line-height: 11px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.company-today-button:focus,
+.company-today-button:active
+ {
+    color: #3b3b3b;
+}
+
+.company-today-button:hover {
+    color: #3b3b3b;
+}
+
+.company-today-chevrons {
+    background-image: url(../img/chv_l.png), url(../img/chv_r.png);
+    background-position: center left, center right;
+    background-repeat: no-repeat, no-repeat;
+    background-position-x: 150px, 950px;
+    background-position-y: 7px;
+    margin-bottom: 60px;
+}
+.company-today-child{
+
+}
+.company-today-tile{
+    
+}

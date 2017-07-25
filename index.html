@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+    <link rel="stylesheet" href="css/sm.css" />
     <link rel="stylesheet" href="css/fonts.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/media.css" />
@@ -62,8 +63,8 @@
             </div>
         </div>
         <ul class="navbar col-lg-12" id="nav">
-            <li class="navbar_li navbar1 col-md-2"><a class="nav_text" href="#">Главная</a></li>
-            <li class="navbar_li navbar2 col-md-2"><a class="nav_text" href="#">О компании</a></li>
+            <li class="navbar_li navbar1 col-md-2"><a class="nav_text" href="index.html">Главная</a></li>
+            <li class="navbar_li navbar2 col-md-2"><a class="nav_text" href="about.html">О компании</a></li>
             <li class="navbar_li navbar3 col-md-2"><a class="nav_text" href="#">Каталог</a></li>
             <li class="navbar_li navbar4 col-md-2"><a class="nav_text" href="#">Акции</a></li>
             <li class="navbar_li navbar5 col-md-2"><a class="nav_text" href="#">Новости</a></li>
@@ -86,7 +87,6 @@
                 </div>
             </div>
         </section>
-            <div class="cart-selected"></div>
     </div>
     <div class="container">
         <div class="col-xxs-12 novelties">
@@ -722,7 +722,7 @@
                 <div class="footer-rights">&#9400;&nbsp; Grass: косметика для чистоты. Все права защищены.</div>
             </div>
             <div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 states-blok states-blok2">
-                <div class="footer-write-us">Написать нам</div>
+                <div class="footer-write-us openSlickModal-1 manualLabel">Написать нам</div>
                 <div class="footer-share">Поделиться:
                     <ul class="footer-social-stack">
                         <a href="#"><li class="footer-social1 footer-social"></li></a>
@@ -757,9 +757,22 @@
 </div>
         </div>
     </div>
-
+    <div id="popup-1" class="slickModal">
+            <div class="window">
+                <div class="title">Обратная связь</div>
+                <form>
+                    <input type="text" class="field" placeholder="Ваше имя" />
+                    <input type="email" class="field" placeholder="Ваш E-mail" />
+                    <input type="tel" class="field" placeholder="Ваш телефон" />
+                    <input type="text" class="field field-text" placeholder="Сообщение" />
+                    <input type="submit" class="closeModal send" value="Отправить" />
+                </form>
+                <div class="closeModal bottomClose">Нет, спасибо.</div>
+            </div>
+        </div>
     <script src="libs/jquery/jquery-1.11.1.min.js"></script>
+        <script src="js/jquery.slick-modals.min.js"></script>
     <script src="js/owl.carousel.js"></script>
     <script src="js/common.js"></script>
-
+</body>
 </html>
