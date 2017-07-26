@@ -12,9 +12,9 @@ $('.cart_box').click(function() {
 });
 $(window).resize(function() {
     var winwidth = $(window).innerWidth();
-    if (winwidth > 992) {
+    if (winwidth > 975) {
         $('ul#nav.navbar').css("display", "block");
-    } else if (winwidth < 992) {
+    } else if (winwidth < 975) {
         $('ul#nav.navbar').css("display", "none");
     }
 });

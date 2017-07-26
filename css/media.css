@@ -45,6 +45,13 @@ background-size: contain;
 .company-today-number {
     padding-top: 25px;
 }
+.title-page {
+    margin-top: 120px;
+}
+.g {
+    height: 582px;
+    top: -63px;
+}
 }
 
 
@@ -57,7 +64,7 @@ background-size: contain;
 
 /* Medium Devices, Desktops */
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991px) {
     .search_block {
         height: 31px;
     }
@@ -162,6 +169,19 @@ display: none;
 }
 .company-today {
     background-size: 100%, 75%;
+}
+.title-page {
+    margin-top: 20px;
+}
+.g {
+height: 690px;
+        top: -124px;
+}
+.contacts-item1:before {
+    height: 66px;
+}
+.contacts-adresses {
+    margin-top: 35px;
 }
 }
 
@@ -279,6 +299,17 @@ display: none;
     .about-grass-footer-desc:first-child {
 position: relative;
 top: 30px;
+}
+.contacts-logo {
+    background-size: contain;
+    display: none;
+}
+.title-page {
+    margin-top: 5px;
+}
+.g {
+    right: -265px;
+    
 }
 }
 
@@ -405,6 +436,9 @@ top: 30px;
 padding: 0;
 font-size: 28px;
 }
+.contacts-logo {
+background: none;
+}
 }
 
 
@@ -443,6 +477,14 @@ font-size: 28px;
 }
 .window form input.send {
     width: 75%;
+}
+.company-today-button {
+    font-size: 10px;
+}
+.contacts-main-office {
+    font-size: 24px;
+    margin-top: 5px;
+    line-height: 25px;
 }
 }
 

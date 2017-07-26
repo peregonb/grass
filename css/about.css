@@ -310,7 +310,7 @@ color: #43af3c;
 }
 
 .company-today-button {
-    width: 220px !important;
+    max-width: 220px !important;
     height: 40px !important;
     background-color: white;
     border-radius: 20px;
@@ -344,9 +344,8 @@ color: #43af3c;
     background-position-y: 7px;
     margin-bottom: 60px;
 }
-.company-today-child{
-
-}
-.company-today-tile{
-    
+.green-small{
+    color: #43af3c;
+    font-size: 14px;
+    font-weight: 600;
 }
