@@ -191,7 +191,7 @@ height: 690px;
         top: -124px;
 }
 .contacts-item1:before {
-    height: 66px;
+    height: 100%;
 }
 .contacts-adresses {
     margin-top: 35px;
@@ -204,7 +204,7 @@ height: 690px;
     background-position-x: 170%;
 }
 .states-blok {
-    min-height: 200px;
+ 
 }
 }
 
