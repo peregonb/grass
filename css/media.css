@@ -51,6 +51,12 @@ background-size: contain;
 .g {
     height: 582px;
     top: -63px;
+        right: -480px;
+}
+.contacts-logo {
+    background-image: url(../img/grass-logo.png);
+    background-repeat: no-repeat;
+    background-position: 0%;
 }
 }
 

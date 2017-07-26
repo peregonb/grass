@@ -119,15 +119,15 @@ max-width: 200px;
     color: #3b3b3b;
 }
 .g{
-    position: absolute;
+position: absolute;
     opacity: 0.5;
     color: #f8f9fb;
     font-family: "Open Sans";
     font-size: 875px;
-    height: 100% !important;
+    height: 167% !important;
     right: -550px;
     font-weight: 700;
-    top: 0 !important;
+    top: -60px !important;
     line-height: 371px;
     text-shadow: 0 0 230px #89de84;
     justify-content: flex-start;
