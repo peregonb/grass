@@ -150,7 +150,7 @@ position: absolute;
 .contacts-logo{
     background-image: url(../img/grass-logo.png);
     background-repeat: no-repeat;
-    background-position: 25%;
+    background-position: 75%;
 }
 #map{
     height: 380px;
@@ -164,4 +164,11 @@ position: absolute;
 }
 .fl{
     float: left;
+}
+.contacts-1{
+    background-image: url(../img/g.png);
+    background-repeat: no-repeat;
+    background-size: 61%;
+    background-position: bottom right;
+    background-position-x: 114%;
 }

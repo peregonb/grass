@@ -58,6 +58,13 @@ background-size: contain;
     background-repeat: no-repeat;
     background-position: 0%;
 }
+.contacts-1 {
+    background-image: url(../img/g.png);
+    background-repeat: no-repeat;
+    background-size: 68%;
+    background-position: bottom right;
+    background-position-x: 132%;
+}
 }
 
 
@@ -189,6 +196,16 @@ height: 690px;
 .contacts-adresses {
     margin-top: 35px;
 }
+.contacts-1 {
+    background-image: url(../img/g.png);
+    background-repeat: no-repeat;
+    background-size: 89%;
+    background-position: bottom right;
+    background-position-x: 170%;
+}
+.states-blok {
+    min-height: 200px;
+}
 }
 
 
@@ -204,7 +221,7 @@ height: 690px;
 
 /* Small Devices, Tablets */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .logo1 {
         width: 117px;
         height: 39px;
@@ -317,6 +334,13 @@ top: 30px;
     right: -265px;
     
 }
+.contacts-1 {
+    background-image: url(../img/g.png);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: bottom right;
+    background-position-x: 45%;
+}
 }
 
 
@@ -332,7 +356,7 @@ top: 30px;
 
 /* Extra Small Devices, Phones */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 479px) {
     .logo1 {
         width: 117px;
         height: 39px;
@@ -408,14 +432,14 @@ top: 30px;
         top: 175px;
         height: 120px;
     }
-    .states-blok3 {
-        position: relative;
-        top: -320px;
-        height: 200px;
-    }
+.states-blok3 {
+    position: relative;
+    top: -300px;
+    height: 175px;
+}
     .states-blok4 {
-        position: relative;
-        top: -335px;
+    position: relative;
+    top: -314px;
     }
     .states-tile2 {
         padding: 0;
@@ -445,6 +469,21 @@ font-size: 28px;
 .contacts-logo {
 background: none;
 }
+.contacts-1 {
+background: none;
+}
+.contacts-button {
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    }
+    .contacts-main-office {
+    font-size: 22px;
+    text-align: center;
+}
+.states-blok {
+    min-height: auto;
+}
 }
 
 
@@ -460,7 +499,7 @@ background: none;
 
 /* Custom, iPhone Retina */
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 319px) {
 
     .novelties-plus {
         right: 10px;

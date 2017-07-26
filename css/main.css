@@ -1151,3 +1151,6 @@ list-style: none;
     background: white !important;
     height: 460px !important;
 }
+.contacts-container-states{
+    margin: 0;
+}
