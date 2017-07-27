@@ -148,10 +148,11 @@ background-size: contain;
     .footer-number {
         font-size: 18px;
     }
-    .footer-rights {
-
-        white-space: normal;
-    }
+.footer-rights {
+    white-space: normal;
+    font-size: 11px;
+    padding: 0 15px 0 0;
+}
     .about-grass-pricips {
         text-align: center;
         width: 100%;
@@ -184,7 +185,7 @@ display: none;
     background-size: 100%, 75%;
 }
 .title-page {
-    margin-top: 20px;
+    margin-top: 0;
 }
 .g {
 height: 690px;
@@ -203,9 +204,62 @@ height: 690px;
     background-position: bottom right;
     background-position-x: 170%;
 }
-.states-blok {
- 
+.footer-number-desc {
+    font-size: 11px;
+    padding: 0 10px 0 0;
+    margin-bottom: 30px;
 }
+.footer-share {
+    font-size: 13px;
+    margin-top: 81px;
+display: block;
+position: static;
+}
+.footer-social-stack {
+    margin-left: 0;
+}
+.logo1 {
+    width: 117px;
+    height: 39px;
+    margin-right: 12px;
+}
+.logo2 {
+    width: 58px;
+    height: 39px;
+}
+.logo3 {
+    width: 39px;
+    height: 39px;
+    left: -15px;
+}
+.cart_box {
+    width: 150px;
+    position: relative;
+    left: -13px;
+    padding-right: 0;
+}
+.hamburger .line {
+    width: 33px;
+    height: 3px;
+    background-color: #04952c;
+    display: block;
+    margin: 7px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+    #hamburger-1.is-active .line:nth-child(1) {
+        -webkit-transform: translateY(13px) rotate(45deg);
+        -ms-transform: translateY(13px) rotate(45deg);
+        -o-transform: translateY(13px) rotate(45deg);
+        transform: translateY(10px) rotate(45deg);
+    }
+    #hamburger-1.is-active .line:nth-child(3) {
+        -webkit-transform: translateY(-13px) rotate(-45deg);
+        -ms-transform: translateY(-13px) rotate(-45deg);
+        -o-transform: translateY(-13px) rotate(-45deg);
+        transform: translateY(-10px) rotate(-45deg);
+    }
 }
 
 
@@ -246,18 +300,7 @@ height: 690px;
         -o-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
     }
-    #hamburger-1.is-active .line:nth-child(1) {
-        -webkit-transform: translateY(13px) rotate(45deg);
-        -ms-transform: translateY(13px) rotate(45deg);
-        -o-transform: translateY(13px) rotate(45deg);
-        transform: translateY(10px) rotate(45deg);
-    }
-    #hamburger-1.is-active .line:nth-child(3) {
-        -webkit-transform: translateY(-13px) rotate(-45deg);
-        -ms-transform: translateY(-13px) rotate(-45deg);
-        -o-transform: translateY(-13px) rotate(-45deg);
-        transform: translateY(-10px) rotate(-45deg);
-    }
+
     .cart_box {
         width: 150px;
         position: relative;
@@ -291,21 +334,8 @@ height: 690px;
 
         white-space: normal;
     }
-    .states-blok1 {
-        position: relative;
-        top: 200px;
-    }
     .states-blok2 {
-        position: relative;
-        top: 200px;
-    }
-    .states-blok3 {
-        position: relative;
-        bottom: 200px;
-    }
-    .states-blok4 {
-        position: relative;
-        bottom: 200px;
+    padding: 0 20px;
     }
     .about-grass-pricips {
         text-align: center;
@@ -340,6 +370,22 @@ top: 30px;
     background-size: 110%;
     background-position: bottom right;
     background-position-x: 45%;
+}
+.cart_block {
+    height: 89px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.states-tile1 {
+padding: 0px 20px;
+    float: left;
+    height: 160px;
+}
+.states-tile2 {
+    padding: 0;
+    float: right;
+    height: 180px;
 }
 }
 
@@ -416,31 +462,14 @@ top: 30px;
         position: relative;
         right: 0;
     }
-    .footer-rights {
-
-        white-space: normal;
-    }
-    .footer-number {
-        font-size: 22px;
-    }
-    .states-blok1 {
-        position: relative;
-        top: 470px;
-    }
-    .states-blok2 {
-        position: relative;
-        top: 175px;
-        height: 120px;
-    }
-.states-blok3 {
-    position: relative;
-    top: -300px;
-    height: 175px;
+.footer-rights {
+    white-space: normal;
+    margin-bottom: 0px;
 }
-    .states-blok4 {
-    position: relative;
-    top: -314px;
-    }
+.footer-number {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
     .states-tile2 {
         padding: 0;
         float: right;
@@ -483,6 +512,38 @@ background: none;
 }
 .states-blok {
     min-height: auto;
+}
+.cart_block {
+    height: 89px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.states-blok2 {
+padding: 0;
+}
+.states-tile1 {
+    height: auto;
+}
+.footer-number-desc {
+    font-size: 11px;
+    padding: 0 10px 0 0;
+    margin-bottom: 15px;
+}
+.footer-write-us {
+    margin-top: 20px;
+}
+.footer-share {
+    margin-top: 60px;
+}
+.footer-list {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.states-tile2 {
+    padding: 0;
+    float: right;
+    height: 330px;
 }
 }
 
@@ -530,6 +591,9 @@ background: none;
     font-size: 24px;
     margin-top: 5px;
     line-height: 25px;
+}
+.footer-number {
+    font-size: 20px;
 }
 }
 
