@@ -7,15 +7,17 @@ $(document).ready(function() {
 $('.hamburger').click(function() {
     $('#nav').slideToggle({ top: 'toggle' });
 });
+
 $('.cart_box').click(function() {
     $('.cart-selected').slideToggle({ left: 'toggle' });
 });
+
 function scrollbarWidth() {
-    var block = $('<div>').css({'height':'50px','width':'50px'}),
-        indicator = $('<div>').css({'height':'200px'});
-    
+    var block = $('<div>').css({ 'height': '50px', 'width': '50px' }),
+        indicator = $('<div>').css({ 'height': '200px' });
+
     $('body').append(block.append(indicator));
-    var w1 = $('div', block).innerWidth();    
+    var w1 = $('div', block).innerWidth();
     block.css('overflow-y', 'scroll');
     var w2 = $('div', block).innerWidth();
     $(block).remove();
@@ -101,7 +103,7 @@ $('#owl-carousel-4').owlCarousel({
     nav: false,
     dots: false,
     responsive: {
-       0: {
+        0: {
             items: 1
         },
         480: {
@@ -130,36 +132,60 @@ $(".novelties-title-block").mouseout(function() {
     $(this).css("color", "black");
 });
 
-$(".plus-block").hover(function(){
+$(".plus-block").hover(function() {
 
-$(this).find(".novelties-plus + .novelties-plus-extended").css("display", "none");
-$(this).find(".novelties-plus + .novelties-plus-extended").animate({ width: 'toggle' }, 90);
-$(this).find(".novelties-plus + .novelties-plus-extended").css("display", "flex");
-}, function(){
+    $(this).find(".novelties-plus + .novelties-plus-extended").css("display", "none");
+    $(this).find(".novelties-plus + .novelties-plus-extended").animate({ width: 'toggle' }, 90);
+    $(this).find(".novelties-plus + .novelties-plus-extended").css("display", "flex");
+}, function() {
     $(this).find(".novelties-plus + .novelties-plus-extended").css("display", "flex");
     $(this).find(".novelties-plus + .novelties-plus-extended").animate({ width: 'toggle' }, 80);
 });
+$(".plus-block").click(function() {
+    $(this).find(".novelties-plus").addClass("plus-clicked");
+    $(this).find(".novelties-plus").text("✔");
+    $(this).find(".novelties-plus").css("background", "#50c245");
+    $(this).find(".novelties-plus").css("color", "white");
+    $(this).find(".novelties-plus").css("font-size", "20px");
+    $(this).find(".novelties-plus").css("letter-spacing", "7px");
+
+    $(this).find(".novelties-plus + .novelties-plus-extended").css("display", "flex");
+    $(this).find(".novelties-plus + .novelties-plus-extended").animate({ width: 'toggle' }, 80);
+    $(this).find(".novelties-plus-extended").text(" ");
+
+});
+$(".plus-block").hover(function() {
+
+    $(this).find(".plus-clicked + .novelties-plus-extended").css("display", "none");
+}, function() {
+
+    $(this).find(".plus-clicked + .novelties-plus-extended").removeClass("novelties-plus-extended");
+});
+
+
+
+
 $.fn.hyphenate = function() {
-  var all = "[абвгдеёжзийклмнопрстуфхцчшщъыьэюя]",
-    glas = "[аеёиоуыэю\я]",
-    sogl = "[бвгджзклмнпрстфхцчшщ]",
-    zn = "[йъь]",
-    shy = "\xAD",
-    re = [];
-   
-  re[1] = new RegExp("("+zn+")("+all+all+")","ig");
-  re[2] = new RegExp("("+glas+")("+glas+all+")","ig");
-  re[3] = new RegExp("("+glas+sogl+")("+sogl+glas+")","ig");
-  re[4] = new RegExp("("+sogl+glas+")("+sogl+glas+")","ig");
-  re[5] = new RegExp("("+glas+sogl+")("+sogl+sogl+glas+")","ig");
-  re[6] = new RegExp("("+glas+sogl+sogl+")("+sogl+sogl+glas+")","ig");
-  return this.each(function() {
-    var text = $(this).html();
-    for (var i = 1; i < 7; ++i) {
-      text = text.replace(re[i], "$1"+shy+"$2");
-    }
-    $(this).html(text);
-  });
+    var all = "[абвгдеёжзийклмнопрстуфхцчшщъыьэюя]",
+        glas = "[аеёиоуыэю\я]",
+        sogl = "[бвгджзклмнпрстфхцчшщ]",
+        zn = "[йъь]",
+        shy = "\xAD",
+        re = [];
+
+    re[1] = new RegExp("(" + zn + ")(" + all + all + ")", "ig");
+    re[2] = new RegExp("(" + glas + ")(" + glas + all + ")", "ig");
+    re[3] = new RegExp("(" + glas + sogl + ")(" + sogl + glas + ")", "ig");
+    re[4] = new RegExp("(" + sogl + glas + ")(" + sogl + glas + ")", "ig");
+    re[5] = new RegExp("(" + glas + sogl + ")(" + sogl + sogl + glas + ")", "ig");
+    re[6] = new RegExp("(" + glas + sogl + sogl + ")(" + sogl + sogl + glas + ")", "ig");
+    return this.each(function() {
+        var text = $(this).html();
+        for (var i = 1; i < 7; ++i) {
+            text = text.replace(re[i], "$1" + shy + "$2");
+        }
+        $(this).html(text);
+    });
 };
 
 // $(function() {

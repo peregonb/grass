@@ -1,0 +1,172 @@
+.product-item-scatter-image{
+    background-image: url(../img/product-item1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 456px;
+    background-position-y: 50%;
+    position: relative;
+    float: left;
+    width: 34%;
+    display: -webkit-inline-flex;
+    display: -moz-inline-flex;
+    display: -ms-inline-flex;
+    display: -o-inline-flex;
+    display: inline-flex;
+    margin-left: 5%;
+    
+}
+.product-item-scatter{
+padding: 35px 15px;
+}
+.product-item-scatter-flex {
+    display: inline-flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 61%;
+}
+.product-item-scatter-item-headline{
+    line-height: 23px;
+    float: right;
+    padding: 15% 10% 0 10%;
+    margin-top: 15px;
+    display: inline-flex;
+    color: #3b3b3b;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 800;
+	font-family: 'Open Sans';
+}
+.product-item-scatter-item-desc{
+	float: right;
+    padding: 0 10% 0 10%;
+    margin-top: 15px;
+    display: inline-flex;
+    color: #3b3b3b;
+    	font-family: 'Open Sans';
+    	color: #b9b9b9;
+font-size: 20px;
+font-weight: 800;
+}
+.product-item-scatter-item-articul{
+    height: 50px;
+    padding: 0 10% 0 10%;
+    display: flex;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+}
+.product-item-scatter-item-articul-counter{
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: flex-start;
+    color: #b9b9b9;
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+}
+.product-item-scatter-item-articul-weight{
+	margin-left: 20%;
+}
+.product-item-scatter-item-articul-buttons{
+    display: flex;
+    width: 40%;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.product-item-scatter-item-articul-buttons-holder{
+    display: flex;
+    height: 45px;
+    width: 123px;
+    align-items: center;
+    border: 1px solid gainsboro;
+    border-radius: 25px;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+.product-item-scatter-item-articul-buttons-button-left{
+	height: 37px;
+    width: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans';
+    font-weight: 900;
+    border-radius: 20px;
+    border: solid 1px gainsboro;
+    margin-left: 4px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.product-item-scatter-item-articul-buttons-button-left:hover,
+.product-item-scatter-item-articul-buttons-button-right:hover{
+background-color: #c6e0c4;
+color: white;
+}
+.product-item-scatter-item-articul-buttons-button-right{
+		height: 37px;
+    width: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans';
+    font-weight: 900;
+    border-radius: 20px;
+    border: solid 1px gainsboro;
+    margin-right: 4px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.product-item-scatter-item-articul-buttons-number{
+    color: #282b26;
+    font-family: 'Open Sans';
+    font-weight: 900;
+    font-size: 25px;
+    margin: 0 12px;
+}
+.product-item-scatter-item-price{
+    background-color: #f7f7f7;
+    border-radius: 2px;
+    height: 100px;
+    margin: 4% 10% 0 10%;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+.product-item-scatter-item-price-number{
+color: #282b26;
+    font-family: 'Open Sans';
+    font-weight: 900;
+    font-size: 35px;
+    height: 35px;
+    line-height: 35px;
+    margin: 32px 0;
+    margin-left: 7%;
+    width: 40%;
+}
+.price-add-lower{
+	    font-size: 13px;
+    text-transform: uppercase;
+}
+.product-item-scatter-item-price-add{
+	display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 60%;
+    margin-right: 7%
+}
+.product-item-plus{
+	position: static;
+}
+.product-item-plus-extended{
+position: relative;
+    display: flex;
+    right: -16px;
+    bottom: 0;
+}
