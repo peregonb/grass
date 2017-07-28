@@ -1043,46 +1043,43 @@ color: #7a7a7a;
     justify-content: center;
 }
 .footer-social1{
-    background-image: url(../img/vk.svg);
+    background-image: url(../img/vk.png);
     background-repeat: no-repeat;
     height: 17px;
-    background-size: 90%;
     width: 17px;
     border-radius: 3px;
-    background-position-y: 2px;
-    background-position-x: 1px;
+    background-position-y: 3px;
+    background-position-x: 2px;
     display: block;
     background-color: #507299;
     margin-right: 5px;
 }
 .footer-social2{
-    background-image: url(../img/fb.svg);
+    background-image: url(../img/fb.png);
     background-repeat: no-repeat;
     height: 17px;
     width: 17px;
     border-radius: 3px;
-    background-position-y: 2px;
-    background-position-x: 8px;
-    background-size: 52%;
+    background-position-y: 3px;
+    background-position-x: 7px;
     display: block;
     background-color: #3b5998;
     margin-right: 5px;
 }
 .footer-social3{
-background-image: url(../img/gp.svg);
+    background-image: url(../img/gp.png);
     background-repeat: no-repeat;
     height: 17px;
     width: 17px;
     border-radius: 3px;
     background-position-y: 4px;
     background-position-x: 2px;
-    background-size: 90%;
     display: block;
     background-color: #db4437;
     margin-right: 5px;
 }
 .footer-social4{
-background-image: url(../img/ok.svg);
+    background-image: url(../img/ok.png);
     background-repeat: no-repeat;
     height: 17px;
     width: 17px;
@@ -1090,7 +1087,6 @@ background-image: url(../img/ok.svg);
     background-position-y: 3px;
     background-position-x: 4px;
     display: block;
-    background-size: 60%;
     background-color: #ee8208;
 }
 .footer-social-stack {
