@@ -10,11 +10,22 @@ $('.hamburger').click(function() {
 $('.cart_box').click(function() {
     $('.cart-selected').slideToggle({ left: 'toggle' });
 });
+function scrollbarWidth() {
+    var block = $('<div>').css({'height':'50px','width':'50px'}),
+        indicator = $('<div>').css({'height':'200px'});
+    
+    $('body').append(block.append(indicator));
+    var w1 = $('div', block).innerWidth();    
+    block.css('overflow-y', 'scroll');
+    var w2 = $('div', block).innerWidth();
+    $(block).remove();
+    return (w1 - w2);
+}
 $(window).resize(function() {
-    var winwidth = $(window).innerWidth();
-    if (winwidth > 975) {
+    var winwidth = $(window).outerWidth();
+    if (winwidth > 991 - scrollbarWidth) {
         $('ul#nav.navbar').css("display", "block");
-    } else if (winwidth < 975) {
+    } else if (winwidth < 992 - scrollbarWidth) {
         $('ul#nav.navbar').css("display", "none");
     }
 });
@@ -118,30 +129,6 @@ $(".novelties-title-block").mouseout(function() {
     $(this).css("border", "1px solid #ddd");
     $(this).css("color", "black");
 });
-
-
-
-
-// $("#novelties-plus1").mouseover(function() {
-//     $("#novelties-plus1 + .novelties-plus-extended").css("display", "none");
-//     $("#novelties-plus1 + .novelties-plus-extended").animate({ width: 'toggle' }, 160);
-//     $("#novelties-plus1 + .novelties-plus-extended").css("display", "flex");
-
-// });
-// $("#novelties-plus1").mouseout(function() {
-//     $("#novelties-plus1 + .novelties-plus-extended").css("display", "flex");
-//     $("#novelties-plus1 + .novelties-plus-extended").animate({ width: 'toggle' }, 160);
-
-// });
-///////////////////////
-// $(".item").on("mouseover", function(){
-//     $(this).find(".novelties-plus + .novelties-plus-extended").css("display", "none");
-//     // $(".novelties-plus + .novelties-plus-extended").css("display", "none");
-//     $(this).find(".novelties-plus + .novelties-plus-extended").animate({ width: 'toggle' }, 160);
-//     $(this).find(".novelties-plus + .novelties-plus-extended").css("display", "flex");
-//     console.log("dsdfaf");
-// });
-
 
 $(".plus-block").hover(function(){
 
