@@ -404,7 +404,7 @@ padding: 0;
     top: -5%;
 }
 .catalog-scatter-item-image {
-    background-size: 185%;
+    background-size: 40em;
 
 }
 .catalog-scatter-item-headline {
@@ -643,17 +643,17 @@ padding: 0;
     height: auto;
 }
 .catalog-scatter-item-image {
-background-size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 77%;
     position: relative;
     width: 100%;
-    height: 200px;
+    background-position: center;
     background-position-x: 0%;
-    height: 255px;
+    height: 187px;
     top: 10px;
-    left: -7px;
-    background-size: 270%;
+    left: -4px;
+    background-size: 40em;
 }
 .catalog-scatter-flex {
     display: inline-flex;
@@ -669,7 +669,7 @@ background-size: cover;
     font-weight: 700;
     line-height: 16px;
     float: right;
-    margin-top: 40px;
+    margin-top: 35px;
     padding: 0px 20px 0 20px;
 }
 .catalog-scatter-item-desc {
