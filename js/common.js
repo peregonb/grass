@@ -154,6 +154,19 @@ $(".plus-block").click(function() {
     $(this).find(".novelties-plus-extended").text(" ");
 
 });
+$(".product-item-scatter-item-price-add").click(function() {
+    $(this).find(".novelties-plus").addClass("plus-clicked");
+    $(this).find(".novelties-plus").text("✔");
+    $(this).find(".novelties-plus").css("background", "#50c245");
+    $(this).find(".novelties-plus").css("color", "white");
+    $(this).find(".novelties-plus").css("font-size", "20px");
+    $(this).find(".novelties-plus").css("letter-spacing", "7px");
+
+    $(this).find(".product-item-plus-extended").css("display", "none");
+    $(this).find(".product-item-plus-extended").css("transition", "80ms");
+    $(this).find(".product-item-plus-extended").text(" ");
+
+});
 $(".plus-block").hover(function() {
 
     $(this).find(".plus-clicked + .novelties-plus-extended").css("display", "none");

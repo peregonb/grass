@@ -1,32 +1,34 @@
 .product-item-scatter-image{
-    background-image: url(../img/product-item1.svg);
+background-image: url(../img/product-item1.png);
     background-size: contain;
     background-repeat: no-repeat;
     height: 456px;
     background-position-y: 50%;
+    background-position-x: 100%;
     position: relative;
     float: left;
-    width: 34%;
+    width: 50%;
     display: -webkit-inline-flex;
     display: -moz-inline-flex;
     display: -ms-inline-flex;
     display: -o-inline-flex;
     display: inline-flex;
-    margin-left: 5%;
     
 }
 .product-item-scatter{
-padding: 35px 15px;
+    padding: 35px 15px;
+    padding-bottom: 0;
 }
 .product-item-scatter-flex {
     display: inline-flex;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    width: 61%;
+    width: 50%;
+    height: 456px;
 }
 .product-item-scatter-item-headline{
-    line-height: 23px;
+     line-height: 28px;
     float: right;
     padding: 15% 10% 0 10%;
     margin-top: 15px;
@@ -35,7 +37,7 @@ padding: 35px 15px;
     font-size: 24px;
     text-transform: uppercase;
     font-weight: 800;
-	font-family: 'Open Sans';
+    font-family: 'Open Sans';
 }
 .product-item-scatter-item-desc{
 	float: right;
@@ -169,4 +171,47 @@ position: relative;
     display: flex;
     right: -16px;
     bottom: 0;
+}
+.product-item-scatter-description-title{
+    margin-top: 15px;
+    display: inline-flex;
+    color: #3b3b3b;
+    font-family: 'Open Sans';
+    color: #b9b9b9;
+    font-size: 20px;
+    font-weight: 800;
+}
+.product-item-scatter-description-text{
+color: #b9b9b9;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.product-item-scatter-image-list-box-li{
+text-decoration: none;
+    list-style: none;
+    border: 5px solid #e8e8e8;
+    border-radius: 6px;
+    background-image: url(../img/product-item1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+        background-position-x: 50%;
+}
+.product-item-scatter-image-list-box-li:hover{
+ border: 5px solid #109a2f;
+}
+.product-item-scatter-image-list-box{
+    display: flex;
+    align-items: center;
+}
+.product-item-scatter-image-list-box-ul{
+    margin: 0;
+}
+.product-item-scatter-description{
+    padding: 15px;
+    padding-top: 10px;
 }
