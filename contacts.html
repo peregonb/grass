@@ -15,13 +15,14 @@
     <link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
     <link rel="stylesheet" href="css/fonts.css" />
     <link rel="stylesheet" href="css/sm.css" />
+    <link rel="stylesheet" href="css/product-item.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/contacts.css" />
     <link rel="stylesheet" href="css/media.css" />
 </head>
 
 <body style='overflow-x:hidden;'>
-       <header class="index_header container-fluid p0">
+    <header class="index_header container-fluid p0">
         <div class="container index_header">
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-xxs-12 logo_stack">
                 <a href="index.html" class="logo">
@@ -51,6 +52,33 @@
                         <div class="cart_box">
                             <div class="cart_item"></div>
                             <div class="cart_text">Корзина пуста</div>
+                        </div>
+                        <div class="cart-selected">
+                            <ul class="cart-top-list">
+                                <li class="cart-top-items">Фото</li>
+                                <li class="cart-top-items">Наименование</li>
+                                <li class="cart-top-items">Количество</li>
+                                <li class="cart-top-items">Удалить</li>
+                            </ul>
+                            <hr class="hrhr">
+                            <ul class="cart-top-product">
+                                <li class="cart-top-product1 cart-top-class1">
+                                    <div class="cart-item-top-product1-item1"></div>
+                                </li>
+                                <li class="cart-top-product1 cart-top-class2 cart-item-top-product1-item2">Жидкое ароматизирующее средство "Silver" (флакон 250 мл)</li>
+                                <li class="cart-top-product1 cart-top-class3 cart-item-top-product1-item3">
+                                    <div class="product-item-scatter-item-articul-buttons-holder cart-scatter-item-articul-buttons-holder">
+                                        <div class="product-item-scatter-item-articul-buttons-button-left cart-scatter-item-articul-buttons-button-left">-</div>
+                                        <div class="product-item-scatter-item-articul-buttons-number cart-scatter-item-articul-buttons-number">2</div>
+                                        <div class="product-item-scatter-item-articul-buttons-button-right cart-scatter-item-articul-buttons-button-right">+</div>
+                                    </div>
+                                </li>
+                                <li class="cart-top-product1 cart-top-class4">
+                                    <a class="cart-item-top-product1-item4" href="#"></a>
+                                </li>
+                            </ul>
+                            <hr class="hrhr">
+                            <a href="#" class="cart-top-submit-button">Оформить заказ&nbsp;&rarr;</a>
                         </div>
                     </div>
                 </div>
@@ -207,9 +235,9 @@
             position: uluru,
             map: map,
             icon: {
-        url: "img/mark.svg",
-        scaledSize: new google.maps.Size(40, 65)
-    }
+                url: "img/mark.svg",
+                scaledSize: new google.maps.Size(40, 65)
+            }
         });
     }
     </script>

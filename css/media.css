@@ -872,6 +872,69 @@ padding: 0;
 .news-item-text-butons-left a {
     font-size: 11px;
 }
+.cart-selected {
+    height: auto;
+    width: 300px;
+    position: absolute;
+    top: 45px;
+    left: -20px;
+    background: white;
+    z-index: 9999 !important;
+    border: 1px solid #e1e1e1;
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.07);
+    display: none;
+}
+.cart-top-product {
+    display: block;
+    margin: 0;
+}
+.cart-top-product1 {
+    list-style: none;
+    display: inline;
+    color: #282b27;
+    font-family: "Open Sans";
+    font-size: 11px;
+    font-weight: 600;
+    height: 72px;
+    align-items: center;
+    display: flex;
+    margin: 0 19px;
+    margin: 0;
+    float: left;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin: 10px 0px;
+        white-space: normal;
+}
+.cart-top-class1{
+    width: 40%;
+}
+.cart-top-class2{
+    width: 60%;
+}
+.cart-top-class3{
+width: 77%;
+    height: 34px;
+    float: left;
+    display: flex;
+    justify-content: flex-end;
+}
+.cart-top-class4{
+width: 23%;
+    height: 35px;
+}
+.cart-item-top-product1-item4 {
+    background-image: url(../img/trash.svg);
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 70px;
+    background-position: center;
+    background-size: 25%;
+}
+.cart-top-list{
+    display: none;
+}
 }
 
 

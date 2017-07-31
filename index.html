@@ -15,12 +15,13 @@
     <link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
     <link rel="stylesheet" href="css/sm.css" />
     <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/product-item.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/media.css" />
 </head>
 
 <body style='overflow-x:hidden;'>
-       <header class="index_header container-fluid p0">
+    <header class="index_header container-fluid p0">
         <div class="container index_header">
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-xxs-12 logo_stack">
                 <a href="index.html" class="logo">
@@ -50,6 +51,33 @@
                         <div class="cart_box">
                             <div class="cart_item"></div>
                             <div class="cart_text">Корзина пуста</div>
+                        </div>
+                        <div class="cart-selected">
+                            <ul class="cart-top-list">
+                                <li class="cart-top-items">Фото</li>
+                                <li class="cart-top-items">Наименование</li>
+                                <li class="cart-top-items">Количество</li>
+                                <li class="cart-top-items">Удалить</li>
+                            </ul>
+                            <hr class="hrhr">
+                            <ul class="cart-top-product">
+                                <li class="cart-top-product1 cart-top-class1">
+                                    <div class="cart-item-top-product1-item1"></div>
+                                </li>
+                                <li class="cart-top-product1 cart-top-class2 cart-item-top-product1-item2">Жидкое ароматизирующее средство "Silver" (флакон 250 мл)</li>
+                                <li class="cart-top-product1 cart-top-class3 cart-item-top-product1-item3">
+                                    <div class="product-item-scatter-item-articul-buttons-holder cart-scatter-item-articul-buttons-holder">
+                                        <div class="product-item-scatter-item-articul-buttons-button-left cart-scatter-item-articul-buttons-button-left">-</div>
+                                        <div class="product-item-scatter-item-articul-buttons-number cart-scatter-item-articul-buttons-number">2</div>
+                                        <div class="product-item-scatter-item-articul-buttons-button-right cart-scatter-item-articul-buttons-button-right">+</div>
+                                    </div>
+                                </li>
+                                <li class="cart-top-product1 cart-top-class4">
+                                    <a class="cart-item-top-product1-item4" href="#"></a>
+                                </li>
+                            </ul>
+                            <hr class="hrhr">
+                            <a href="#" class="cart-top-submit-button">Оформить заказ&nbsp;&rarr;</a>
                         </div>
                     </div>
                 </div>
@@ -717,64 +745,97 @@
     </div>
     <div class="container-fluid container-states">
         <div class="container">
-<div class="col-md-6 col-sm-6 col-xs-12 col-xxs-12 states-tile1">
-            <div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 states-blok states-blok1">
-                <div class="footer-number">+7 (8443) <span class="phone_number_bold">&nbsp;58-48-48</span></div>
-                <div class="footer-number-desc">Автохимия и автокосметика для моек</div>
-                <div class="footer-rights">&#9400;&nbsp; Grass: косметика для чистоты. Все права защищены.</div>
+            <div class="col-md-6 col-sm-6 col-xs-12 col-xxs-12 states-tile1">
+                <div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 states-blok states-blok1">
+                    <div class="footer-number">+7 (8443) <span class="phone_number_bold">&nbsp;58-48-48</span></div>
+                    <div class="footer-number-desc">Автохимия и автокосметика для моек</div>
+                    <div class="footer-rights">&#9400;&nbsp; Grass: косметика для чистоты. Все права защищены.</div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 states-blok states-blok2">
+                    <div class="footer-write-us openSlickModal-1 manualLabel">Написать нам</div>
+                    <div class="footer-share">Поделиться:
+                        <ul class="footer-social-stack">
+                            <a href="#">
+                                <li class="footer-social1 footer-social"></li>
+                            </a>
+                            <a href="#">
+                                <li class="footer-social2 footer-social"></li>
+                            </a>
+                            <a href="#">
+                                <li class="footer-social3 footer-social"></li>
+                            </a>
+                            <a href="#">
+                                <li class="footer-social4 footer-social"></li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 states-blok states-blok2">
-                <div class="footer-write-us openSlickModal-1 manualLabel">Написать нам</div>
-                <div class="footer-share">Поделиться:
-                    <ul class="footer-social-stack">
-                        <a href="#"><li class="footer-social1 footer-social"></li></a>
-                        <a href="#"><li class="footer-social2 footer-social"></li></a>
-                        <a href="#"><li class="footer-social3 footer-social"></li></a>
-                        <a href="#"><li class="footer-social4 footer-social"></li></a>
+            <div class="col-md-6 col-sm-6 col-xs-12 col-xxs-12 states-tile2">
+                <div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 states-blok states-blok3">
+                    <ul class="footer-list">
+                        <a href="#">
+                            <li class="footer-list-text">Автохимия для моек</li>
+                        </a>
+                        <a href="#">
+                            <li class="footer-list-text">Авохимия в розницу</li>
+                        </a>
+                        <a href="#">
+                            <li class="footer-list-text">Клининг</li>
+                        </a>
+                        <a href="#">
+                            <li class="footer-list-text">Бытовая химия</li>
+                        </a>
+                        <a href="#">
+                            <li class="footer-list-text">Оборудование для автомойки</li>
+                        </a>
+                        <a href="#">
+                            <li class="footer-list-text">Пылесосы</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 states-blok states-blok4">
+                    <ul class="footer-list">
+                        <a href="#">
+                            <li class="footer-list-text">Инвентарь</li>
+                        </a>
+                        <a href="#">
+                            <li class="footer-list-text">Аппараты высокого давления</li>
+                        </a>
+                        <a href="#">
+                            <li class="footer-list-text">Очистные усановки</li>
+                        </a>
+                        <a href="#">
+                            <li class="footer-list-text">Реклама, бренд</li>
+                        </a>
+                        <a href="#">
+                            <li class="footer-list-text">Сертификаты</li>
+                        </a>
+                        <a href="#">
+                            <li class="footer-list-text footer-list-web">Создатель сайта — igmish.</li>
+                        </a>
                     </ul>
                 </div>
             </div>
-</div>
-<div class="col-md-6 col-sm-6 col-xs-12 col-xxs-12 states-tile2">
-            <div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 states-blok states-blok3">
-                <ul class="footer-list">
-                    <a href="#"><li class="footer-list-text">Автохимия для моек</li> </a>
-                    <a href="#"><li class="footer-list-text">Авохимия в розницу</li> </a>
-                    <a href="#"><li class="footer-list-text">Клининг</li> </a>
-                    <a href="#"><li class="footer-list-text">Бытовая химия</li> </a>
-                    <a href="#"><li class="footer-list-text">Оборудование для автомойки</li> </a>
-                    <a href="#"><li class="footer-list-text">Пылесосы</li> </a>
-                </ul>
-            </div>
-            <div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 states-blok states-blok4">
-                <ul class="footer-list">
-                    <a href="#"><li class="footer-list-text">Инвентарь</li> </a>
-                    <a href="#"><li class="footer-list-text">Аппараты высокого давления</li> </a>
-                    <a href="#"><li class="footer-list-text">Очистные усановки</li> </a>
-                    <a href="#"><li class="footer-list-text">Реклама, бренд</li> </a>
-                    <a href="#"><li class="footer-list-text">Сертификаты</li> </a>
-                    <a href="#"><li class="footer-list-text footer-list-web">Создатель сайта — igmish.</li> </a>
-                </ul>
-            </div>
-</div>
         </div>
     </div>
     <div id="popup-1" class="slickModal">
-            <div class="window">
-                <div class="title">Обратная связь</div>
-                <form>
-                    <input type="text" class="field" placeholder="Ваше имя" />
-                    <input type="email" class="field" placeholder="Ваш E-mail" />
-                    <input type="tel" class="field" placeholder="Ваш телефон" />
-                    <input type="text" class="field field-text" placeholder="Сообщение" />
-                    <input type="submit" class="closeModal send" value="Отправить" />
-                </form>
-                <div class="closeModal bottomClose">Нет, спасибо.</div>
-            </div>
+        <div class="window">
+            <div class="title">Обратная связь</div>
+            <form>
+                <input type="text" class="field" placeholder="Ваше имя" />
+                <input type="email" class="field" placeholder="Ваш E-mail" />
+                <input type="tel" class="field" placeholder="Ваш телефон" />
+                <input type="text" class="field field-text" placeholder="Сообщение" />
+                <input type="submit" class="closeModal send" value="Отправить" />
+            </form>
+            <div class="closeModal bottomClose">Нет, спасибо.</div>
         </div>
+    </div>
     <script src="libs/jquery/jquery-1.11.1.min.js"></script>
-        <script src="js/jquery.slick-modals.min.js"></script>
+    <script src="js/jquery.slick-modals.min.js"></script>
     <script src="js/owl.carousel.js"></script>
     <script src="js/common.js"></script>
 </body>
+
 </html>

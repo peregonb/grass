@@ -9,7 +9,7 @@ $('.hamburger').click(function() {
 });
 
 $('.cart_box').click(function() {
-    $('.cart-selected').slideToggle({ left: 'toggle' });
+    $('.cart-selected').animate({width:'toggle'},220);
 });
 
 function scrollbarWidth() {
