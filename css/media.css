@@ -856,6 +856,22 @@ padding: 0;
 .product-item-plus-extended{
     right: -17px !important;
 }
+.news-item-text-desc {
+    font-size: 13px;
+    line-height: 18px;
+}
+.news-item-text-header {
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.news-item-text-butons-right a {
+    font-size: 11px;
+}
+.news-item-text-butons-left a {
+    font-size: 11px;
+}
 }
 
 

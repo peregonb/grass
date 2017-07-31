@@ -25,9 +25,9 @@ function scrollbarWidth() {
 }
 $(window).resize(function() {
     var winwidth = $(window).outerWidth();
-    if (winwidth > 991 - scrollbarWidth) {
+    if (winwidth > 991 - scrollbarWidth()) {
         $('ul#nav.navbar').css("display", "block");
-    } else if (winwidth < 992 - scrollbarWidth) {
+    } else if (winwidth < 992 - scrollbarWidth()) {
         $('ul#nav.navbar').css("display", "none");
     }
 });
@@ -144,10 +144,7 @@ $(".plus-block").hover(function() {
 $(".plus-block").click(function() {
     $(this).find(".novelties-plus").addClass("plus-clicked");
     $(this).find(".novelties-plus").text("✔");
-    $(this).find(".novelties-plus").css("background", "#50c245");
-    $(this).find(".novelties-plus").css("color", "white");
-    $(this).find(".novelties-plus").css("font-size", "20px");
-    $(this).find(".novelties-plus").css("letter-spacing", "7px");
+    $(this).find(".novelties-plus").addClass("arrow");
 
     $(this).find(".novelties-plus + .novelties-plus-extended").css("display", "flex");
     $(this).find(".novelties-plus + .novelties-plus-extended").animate({ width: 'toggle' }, 80);
@@ -157,10 +154,7 @@ $(".plus-block").click(function() {
 $(".product-item-scatter-item-price-add").click(function() {
     $(this).find(".novelties-plus").addClass("plus-clicked");
     $(this).find(".novelties-plus").text("✔");
-    $(this).find(".novelties-plus").css("background", "#50c245");
-    $(this).find(".novelties-plus").css("color", "white");
-    $(this).find(".novelties-plus").css("font-size", "20px");
-    $(this).find(".novelties-plus").css("letter-spacing", "7px");
+    $(this).find(".novelties-plus").addClass("arrow");
 
     $(this).find(".product-item-plus-extended").css("display", "none");
     $(this).find(".product-item-plus-extended").css("transition", "80ms");

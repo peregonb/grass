@@ -729,6 +729,7 @@ border: 4px solid #30eb1b;
 .novelties-plus:hover {
     width: 40px;
     height: 40px;
+    
 }
 
 .novelties-plus-extended {
@@ -1156,4 +1157,18 @@ color: #979797 !important;
 }
 .contacts-container-states{
     margin: 0;
+}
+.arrow{
+    background: #50c245;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 7px;
+    -webkit-transition: 80ms;
+       -moz-transition: 80ms;
+        -ms-transition: 80ms;
+         -o-transition: 80ms;
+            transition: 80ms;
+}
+.plus-clicked.arrow:hover{
+    color: white;
 }
