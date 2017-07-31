@@ -1159,15 +1159,15 @@ color: #979797 !important;
     margin: 0;
 }
 .arrow{
-    background: #50c245;
+background: #50c245;
     color: white;
     font-size: 20px;
     letter-spacing: 7px;
-    -webkit-transition: 80ms;
-       -moz-transition: 80ms;
-        -ms-transition: 80ms;
-         -o-transition: 80ms;
-            transition: 80ms;
+    background-image: url(../img/arrow.svg);
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: center;
+    background-position-y: -6px;
 }
 .plus-clicked.arrow:hover{
     color: white;

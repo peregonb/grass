@@ -143,7 +143,7 @@ $(".plus-block").hover(function() {
 });
 $(".plus-block").click(function() {
     $(this).find(".novelties-plus").addClass("plus-clicked");
-    $(this).find(".novelties-plus").text("✔");
+    $(this).find(".novelties-plus").text("");
     $(this).find(".novelties-plus").addClass("arrow");
 
     $(this).find(".novelties-plus + .novelties-plus-extended").css("display", "flex");
@@ -153,7 +153,7 @@ $(".plus-block").click(function() {
 });
 $(".product-item-scatter-item-price-add").click(function() {
     $(this).find(".novelties-plus").addClass("plus-clicked");
-    $(this).find(".novelties-plus").text("✔");
+    $(this).find(".novelties-plus").text("");
     $(this).find(".novelties-plus").addClass("arrow");
 
     $(this).find(".product-item-plus-extended").css("display", "none");
