@@ -3,7 +3,9 @@ $(document).ready(function() {
         $(this).toggleClass("is-active");
     });
 });
-
+$(document).ready(function(){
+    $('.cart-scatter-item-articul-buttons-number').css("font-size", "21px");
+});
 $('.hamburger').click(function() {
     $('#nav').slideToggle({ top: 'toggle' });
 });
@@ -169,32 +171,19 @@ $(".plus-block").hover(function() {
     $(this).find(".plus-clicked + .novelties-plus-extended").removeClass("novelties-plus-extended");
 });
 
-
-
-
-$.fn.hyphenate = function() {
-    var all = "[абвгдеёжзийклмнопрстуфхцчшщъыьэюя]",
-        glas = "[аеёиоуыэю\я]",
-        sogl = "[бвгджзклмнпрстфхцчшщ]",
-        zn = "[йъь]",
-        shy = "\xAD",
-        re = [];
-
-    re[1] = new RegExp("(" + zn + ")(" + all + all + ")", "ig");
-    re[2] = new RegExp("(" + glas + ")(" + glas + all + ")", "ig");
-    re[3] = new RegExp("(" + glas + sogl + ")(" + sogl + glas + ")", "ig");
-    re[4] = new RegExp("(" + sogl + glas + ")(" + sogl + glas + ")", "ig");
-    re[5] = new RegExp("(" + glas + sogl + ")(" + sogl + sogl + glas + ")", "ig");
-    re[6] = new RegExp("(" + glas + sogl + sogl + ")(" + sogl + sogl + glas + ")", "ig");
-    return this.each(function() {
-        var text = $(this).html();
-        for (var i = 1; i < 7; ++i) {
-            text = text.replace(re[i], "$1" + shy + "$2");
-        }
-        $(this).html(text);
-    });
-};
-
-// $(function() {
-//     $('.company-today-text').hyphenate();
-// })
+$(document).ready(function() {
+            $('.product-item-scatter-item-articul-buttons-button-left').click(function () {
+                var $input = $(this).parent().find('input');
+                var count = parseInt($input.val()) - 1;
+                count = count < 1 ? 1 : count;
+                $input.val(count);
+                $input.change();
+                return false;
+            });
+            $('.product-item-scatter-item-articul-buttons-button-right').click(function () {
+                var $input = $(this).parent().find('input');
+                $input.val(parseInt($input.val()) + 1);
+                $input.change();
+                return false;
+            });
+        });
