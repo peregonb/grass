@@ -297,9 +297,9 @@ white-space: nowrap;
     margin: 0;
 }
 .cart-scatter-item-articul-buttons-holder{
-        display: flex;
+display: flex;
     height: 35px;
-    width: 91px;
+    width: 100px;
     align-items: center;
     border: 1px solid gainsboro;
     border-radius: 25px;
@@ -308,14 +308,14 @@ white-space: nowrap;
     flex-direction: row;
 }
 .cart-scatter-item-articul-buttons-button-left{
-        height: 27px;
-    width: 35px;
+height: 27px;
+    width: 28px;
     font-size: 17px;
     cursor: pointer;
 }
 .cart-scatter-item-articul-buttons-button-right{
-            height: 27px;
-    width: 35px;
+height: 27px;
+    width: 28px;
     font-size: 17px;
     cursor: pointer;
 }
@@ -384,8 +384,8 @@ textarea + .product-item-scatter-item-articul-buttons-number {
     margin: 0 21px;
 }
 .cart-top-items:nth-child(3){
-    margin: 0 27px;
+    margin: 0 22px;
 }
 .cart-top-items:nth-child(4){
-    margin: 0 4px;
+    margin: 0 14px;
 }

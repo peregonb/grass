@@ -487,6 +487,7 @@
     font-size: 13px;
     color: black;
     box-shadow: inset 1px 1px 3px 0 #e8e8e8;
+    font-weight: 500;
 }
 .field-text{
 	height: 84px;
@@ -523,16 +524,8 @@ background: #01932b;
 	font-size: 12px;
 }
 
-/* ========================
-   Responsive queries
-   ======================== */
 
-/* 
-   Note: Media queries use breakpoints upon which the target elements change their settings/values. Below is an example which sets the modal window to 96% of screen width and the inner title font size at 24px when screen viewport is at 480px width or below (mobiles, low-res tablets etc). You can target specific viewport width, height, their min/max breakpoints, media types and other settings. Within those rules you can then adjust every element and it's css attributes.
 
-   Check out more at:
-   http://www.w3schools.com/cssref/css3_pr_mediaquery.asp
-*/
 
 @media screen and (max-width: 480px) {
 	/* Create responsive modal window */

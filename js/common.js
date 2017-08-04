@@ -13,6 +13,26 @@ $('.hamburger').click(function() {
 $('.cart_box').click(function() {
     $('.cart-selected').animate({width:'toggle'},220);
 });
+$('.call_me').click(function() {
+    $('.call-me-selected').animate({height:'toggle'},220);
+    $('.call-me-selected').css("display", "flex");
+});
+$('.call-me-button-cancel').click(function () {
+    $('.call-me-selected').animate({height:'toggle'},220);
+
+});
+
+$('.call-me-text').hide();
+$('.call-me-button').click(function(){
+$('.call-me-field').hide(250);
+$(this).hide(250);
+$('.call-me-button-cancel').hide(250);
+$('.call-me-text').show(230);
+setTimeout(1000);
+});
+
+
+
 
 function scrollbarWidth() {
     var block = $('<div>').css({ 'height': '50px', 'width': '50px' }),
@@ -31,6 +51,7 @@ $(window).resize(function() {
         $('ul#nav.navbar').css("display", "block");
     } else if (winwidth < 992 - scrollbarWidth()) {
         $('ul#nav.navbar').css("display", "none");
+        $('.call-me-selected').css("display", "none");
     }
 });
 
