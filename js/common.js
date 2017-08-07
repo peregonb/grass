@@ -22,13 +22,76 @@ $('.call-me-button-cancel').click(function () {
 
 });
 
+
+$(document).ready(function(){
+
+    $("#call-me-form").validate({
+        invalidHandler: function(form, validator) {
+        var errors = validator.numberOfInvalids();
+        if (errors > 0) {
+            console.log("sd");
+        }
+    },
+       rules:{
+            formname:{
+                required: true,
+                minlength: 2,
+                maxlength: 16,
+            },
+            formphone:{
+                required: true,
+                minlength: 7,
+                maxlength: 12,
+                digits: true,
+                number: true,
+            },
+       },
+       messages:{
+            formname:{
+                required: false,
+                minlength: false,
+                maxlength: false,
+            },
+            formphone:{
+                required: false,
+                minlength: false,
+                maxlength: false,
+            },
+       }
+    });
+
+
+});
 $('.call-me-text').hide();
+
+
+
+$(".selector").validate({
+    invalidHandler: function(form, validator) {
+        var errors = validator.numberOfInvalids();
+        if (errors) {
+            //resize code goes here
+        }
+    }
+});
+
+
+
+
+
 $('.call-me-button').click(function(){
-$('.call-me-field').hide(250);
-$(this).hide(250);
-$('.call-me-button-cancel').hide(250);
-$('.call-me-text').show(230);
-setTimeout(1000);
+$("formname-error").css("display", "none !important");
+$("formphone-error").css("display", "none !important");
+
+// $('#call-me-form').hide(250);
+// $('.call-me-field').hide(250);
+// $(this).hide(250);
+// $('.call-me-button-cancel').hide(250);
+// $('.call-me-text').show(230);
+
+// setTimeout(function() {
+//       $('.call-me-selected').animate({height:'toggle'},220);  
+//   }, 2000);
 });
 
 

@@ -69,11 +69,11 @@
                                 <li class="cart-top-product1 cart-top-class2 cart-item-top-product1-item2">Жидкое ароматизирующее средство "Silver" (флакон 250 мл)</li>
                                 <li class="cart-top-product1 cart-top-class3 cart-item-top-product1-item3">
                                     <div class="product-item-scatter-item-articul-buttons-holder cart-scatter-item-articul-buttons-holder">
-                                    <div class="product-item-scatter-item-articul-buttons-holder cart-scatter-item-articul-buttons-holder">
-                                        <div class="product-item-scatter-item-articul-buttons-button-left minus cart-scatter-item-articul-buttons-button-left">-</div>
-                                        <input class="product-item-scatter-item-articul-buttons-number cart-scatter-item-articul-buttons-number" type="text" value="1" size="2" />
-                                        <div class="product-item-scatter-item-articul-buttons-button-right cart-scatter-item-articul-buttons-button-right plus">+</div>
-                                    </div>
+                                        <div class="product-item-scatter-item-articul-buttons-holder cart-scatter-item-articul-buttons-holder">
+                                            <div class="product-item-scatter-item-articul-buttons-button-left minus cart-scatter-item-articul-buttons-button-left">-</div>
+                                            <input class="product-item-scatter-item-articul-buttons-number cart-scatter-item-articul-buttons-number" type="text" value="1" size="2" />
+                                            <div class="product-item-scatter-item-articul-buttons-button-right cart-scatter-item-articul-buttons-button-right plus">+</div>
+                                        </div>
                                     </div>
                                 </li>
                                 <li class="cart-top-product1 cart-top-class4">
@@ -211,7 +211,21 @@
             <!-- / Your popup content -->
         </div>
     </div>
+    <div class="call-me-selected">
+        <form id="call-me-form" action="" method="post">
+            <input type="text" name="formname" class="call-me-field call-me-field-text" placeholder="Ваше имя" />
+            <input type="tel" name="formphone" class="call-me-field" placeholder="Ваш телефон" />
+            <button type="submit" class="call-me-button">
+                <div class="call-me-button-image" id="button-14"></div>
+            </button>
+            <button class="call-me-button-cancel">
+                <div class="call-me-button-image-cancel" id="button-14"></div>
+            </button>
+        </form>
+        <div class="call-me-text">Ожидайте звонок от нашего специалиста.</div>
+    </div>
     <script src="libs/jquery/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.validate.js"></script>
     <script src="js/jquery.slick-modals.min.js"></script>
     <script src="js/owl.carousel.js"></script>
     <script src="js/common.js"></script>

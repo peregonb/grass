@@ -27,6 +27,10 @@ body textarea:required:valid {}
 body {
     padding: 0;
     margin: 0;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
 }
 
 a {
@@ -1254,8 +1258,8 @@ input.call-me-field.call-me-field-text {
     border: 1px solid #e8e8e8;
     border-radius: 19px;
     color: white;
-    height: 37px;
-    padding: 10px;
+    height: 38px;
+    padding: 9px;
     font-family: "Open Sans";
     display: flex;
     justify-content: center;
@@ -1268,12 +1272,12 @@ input.call-me-field.call-me-field-text {
 .call-me-button-cancel{
     width: 10%;
     max-width: 38px;
-background-color: #da2a30;
+    background-color: #da2a30;
     border: 1px solid #e8e8e8;
     border-radius: 19px;
     color: white;
-    height: 37px;
-    padding: 10px;
+    height: 38px;
+    padding: 9px;
     font-family: "Open Sans";
     display: flex;
     justify-content: center;
@@ -1284,17 +1288,48 @@ background-color: #da2a30;
     cursor: pointer;
 }
 .call-me-button-image{
+    background: transparent;
     background-image: url(../img/phone-white.png);
     background-repeat: no-repeat;
-    height: 35px;
+    height: 19px;
     width: 40px;
     background-position: center;
     background-size: 100%;
+    border: none;
+}
+.call-me-button-image:hover,
+.call-me-button-image:active,
+.call-me-button-image:focus
+{
+    outline-style: none;
+    outline:none;
+}
+.call-me-button-image-cancel:hover,
+.call-me-button-image-cancel:active,
+.call-me-button-image-cancel:focus
+{
+    outline-style: none;
+    outline:none;
+}
+.call-me-button:hover,
+.call-me-button:active,
+.call-me-button:focus
+{
+    outline-style: none;
+    outline:none;
+}
+.call-me-button-cancel:hover,
+.call-me-button-cancel:active,
+.call-me-button-cancel:focus
+{
+    outline-style: none;
+    outline:none;
 }
 .call-me-button-image-cancel{
+    background: transparent;
     background-image: url(../img/phone-white.png);
     background-repeat: no-repeat;
-    height: 41px;
+    height: 20px;
     width: 40px;
     background-position: center;
     background-size: 100%;
@@ -1305,6 +1340,7 @@ background-color: #da2a30;
     -ms-transform: rotate(5deg);
     -o-transform: rotate(5deg);
     transform: rotate(130deg);
+    border: none;
 }
 .call-me-button{
   animation: wobblelr 0.25s linear infinite;
@@ -1351,9 +1387,30 @@ background-color: #da2a30;
         transition: none;
 }
 .call-me-text {
-    color: #3b3b3b;
+color: #3b3b3b;
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
     letter-spacing: -0.19px;
     font-weight: 400;
+    white-space: nowrap;
+}
+form#call-me-form {
+    display: flex;
+    width: 600px;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+}
+
+input.call-me-field.call-me-field-text.error {
+    border-bottom: 1px solid red;
+}
+input.call-me-field.error {
+    border-bottom: 1px solid red;
+}
+label#formname-error {
+    display: none !important;
+}
+label#formphone-error {
+    display: none !important;
 }
